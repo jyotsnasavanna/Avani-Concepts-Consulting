@@ -1,120 +1,469 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <title>YourClosets</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <style>
-    body {
-      font-family: Arial;
-      margin: 0;
-      background: #f5f5f5;
-    }
+    <title>Avani Concepts & Consulting | Design. Build. Consult.</title>
 
-    nav {
-      background: black;
-      color: white;
-      padding: 15px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    nav ul {
-      list-style: none;
-      display: flex;
-      gap: 20px;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      color: gold;
-    }
-
-    .hero {
-      background: url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6') no-repeat center/cover;
-      height: 400px;
-      color: white;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-    }
-
-    .hero h1 {
-      font-size: 40px;
-      background: rgba(0,0,0,0.5);
-      padding: 20px;
-    }
-
-    .section {
-      padding: 40px;
-      text-align: center;
-    }
-
-    .services {
-      display: flex;
-      justify-content: center;
-      gap: 30px;
-    }
-
-    .card {
-      background: white;
-      padding: 20px;
-      width: 200px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px gray;
-    }
-
-  </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<nav>
-  <h1>Avani Concepts & Consulting</h1>
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="services.html">Services</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-</nav>
+<header class="navbar">
 
-<div class="hero">
-  <h1>Designing Luxury Spaces</h1>
-</div>
+    <a href="index.html" class="logo">
+        Avani
+        <span>Concepts & Consulting</span>
+    </a>
 
-<div class="section">
-  <h2>Welcome to Avani Concepts & Consulting</h2>
-  <p>We create modern, elegant, and functional interiors tailored to your lifestyle.</p>
-</div>
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
 
-<div class="section">
-  <h2>Our Services</h2>
+</header>
 
-  <div class="services">
-    <div class="card">
-      <h3>Home Design</h3>
-      <p>Beautiful and comfortable living spaces.</p>
+
+<!-- HERO -->
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <div class="eyebrow">
+            Avani Concepts & Consulting
+        </div>
+
+        <h1>
+            Design.<br>
+            Build.<br>
+            Consult.
+        </h1>
+
+        <p>
+            Bringing together thoughtful design and practical consulting
+            to help clients create, build and make informed decisions.
+        </p>
+
+        <a href="services.html" class="btn">
+            Explore Our Services
+        </a>
+
     </div>
 
-    <div class="card">
-      <h3>Office Design</h3>
-      <p>Professional and creative workspaces.</p>
+</section>
+
+
+<!-- INTRO -->
+
+<section class="section">
+
+    <div class="container intro">
+
+        <div>
+            <div class="section-label">
+                The Avani Approach
+            </div>
+
+            <h2 class="section-title">
+                More than interiors.
+            </h2>
+        </div>
+
+        <div class="intro-text">
+
+            <p>
+                At <strong>Avani Concepts & Consulting</strong>, we believe
+                that creating a space is about more than aesthetics.
+            </p>
+
+            <br>
+
+            <p>
+                It involves understanding how a space will be used,
+                how it will be built, what decisions need to be made
+                along the way, and the wider considerations surrounding
+                property and finances.
+            </p>
+
+            <br>
+
+            <p>
+                Our approach brings together design and consulting
+                to provide clients with a more connected perspective
+                from concept through to execution and decision-making.
+            </p>
+
+        </div>
+
     </div>
 
-    <div class="card">
-      <h3>3D Design</h3>
-      <p>See your space before it's built.</p>
-    </div>
-  </div>
+</section>
 
-</div>
+
+<!-- TWO SIDES -->
+
+<section class="divisions">
+
+    <div class="division division-design">
+
+        <div class="division-content">
+
+            <div class="division-number">
+                01 — DESIGN & SPACE
+            </div>
+
+            <h2>
+                Creating spaces<br>
+                with purpose.
+            </h2>
+
+            <p>
+                From interior concepts and space planning to
+                3D visualization and construction-related guidance,
+                we help transform ideas into considered spaces.
+            </p>
+
+            <a href="services.html" class="btn">
+                Explore Design Services
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="division division-consulting">
+
+        <div class="division-content">
+
+            <div class="division-number">
+                02 — CONSULTING
+            </div>
+
+            <h2>
+                Perspective<br>
+                beyond design.
+            </h2>
+
+            <p>
+                Our consulting services extend beyond interiors,
+                covering areas such as financial, real estate and
+                construction consulting.
+            </p>
+
+            <a href="services.html" class="btn">
+                Explore Consulting
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FEATURED SERVICES -->
+
+<section class="section">
+
+    <div class="container">
+
+        <div class="section-label">
+            What We Do
+        </div>
+
+        <h2 class="section-title">
+            Services designed around<br>
+            your requirements.
+        </h2>
+
+
+        <div class="service-grid">
+
+            <div class="service-card">
+
+                <div class="service-number">01</div>
+
+                <h3>
+                    Interior Design
+                </h3>
+
+                <p>
+                    Thoughtfully planned residential and
+                    commercial interiors balancing functionality,
+                    aesthetics and individual requirements.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-number">02</div>
+
+                <h3>
+                    3D Visualization
+                </h3>
+
+                <p>
+                    Detailed visual representations that help
+                    clients understand their proposed space
+                    before execution.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-number">03</div>
+
+                <h3>
+                    Construction Consulting
+                </h3>
+
+                <p>
+                    Guidance around construction planning,
+                    coordination and project-related decisions.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-number">04</div>
+
+                <h3>
+                    Real Estate Consulting
+                </h3>
+
+                <p>
+                    Property-related guidance to help clients
+                    evaluate requirements and make considered
+                    decisions.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-number">05</div>
+
+                <h3>
+                    Financial Consulting
+                </h3>
+
+                <p>
+                    Financial guidance tailored to the client's
+                    requirements and objectives.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-number">06</div>
+
+                <h3>
+                    Modular & Smart Design
+                </h3>
+
+                <p>
+                    Practical storage and modular solutions
+                    designed to maximize space without
+                    compromising visual appeal.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- APPROACH -->
+
+<section class="section" style="background:#f5f1ea;">
+
+    <div class="container">
+
+        <div class="section-label">
+            Our Process
+        </div>
+
+        <h2 class="section-title">
+            From idea to<br>
+            informed execution.
+        </h2>
+
+
+        <div class="process">
+
+            <div class="process-item">
+
+                <div class="process-number">01</div>
+
+                <h3>Understand</h3>
+
+                <p>
+                    We begin by understanding your requirements,
+                    priorities, vision and practical considerations.
+                </p>
+
+            </div>
+
+
+            <div class="process-item">
+
+                <div class="process-number">02</div>
+
+                <h3>Plan</h3>
+
+                <p>
+                    We translate the requirements into a
+                    practical design, consulting or project approach.
+                </p>
+
+            </div>
+
+
+            <div class="process-item">
+
+                <div class="process-number">03</div>
+
+                <h3>Visualize</h3>
+
+                <p>
+                    Where applicable, concepts are developed
+                    through layouts, design direction and
+                    3D visualization.
+                </p>
+
+            </div>
+
+
+            <div class="process-item">
+
+                <div class="process-number">04</div>
+
+                <h3>Execute</h3>
+
+                <p>
+                    We help move the plan toward implementation
+                    with attention to detail and coordination.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CTA -->
+
+<section class="cta">
+
+    <h2>
+        Have a space, project or requirement in mind?
+    </h2>
+
+    <p>
+        Tell us what you're looking to create, build,
+        evaluate or plan.
+    </p>
+
+    <a href="contact.html" class="btn">
+        Start a Conversation
+    </a>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div class="footer-grid">
+
+        <div>
+
+            <div class="footer-logo">
+                Avani
+            </div>
+
+            <p class="footer-text">
+                Concepts & Consulting — bringing together
+                design, construction and consulting to create
+                thoughtful solutions for clients.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <div class="footer-title">
+                Navigation
+            </div>
+
+            <ul class="footer-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </div>
+
+
+        <div>
+
+            <div class="footer-title">
+                Contact
+            </div>
+
+            <ul class="footer-links">
+
+                <!-- REPLACE THESE -->
+
+                <li>+91 9052002127</li>
+                <li>savanna.vijayk@gmail.com</li>
+                <li>Hyderabad, India</li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <span>
+            © 2026 Avani Concepts & Consulting
+        </span>
+
+        <span>
+            Design • Build • Consult
+        </span>
+
+    </div>
+
+</footer>
 
 </body>
 </html>
